@@ -15,14 +15,14 @@
             android:layout_height="250dp">
 
             <ImageView
-                android:id="@+id/imgRestaurantView"
+                android:id="@+id/imgRestauranteView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:contentDescription="@string/foto_principal_do_restaurante" />
 
             <ImageView
-                android:id="@+id/imgBackRestaurantDetails"
+                android:id="@+id/imgCostaRestauranteDetalhe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -31,7 +31,7 @@
                 android:contentDescription="@string/voltar" />
 
             <TextView
-                android:id="@+id/txtRestaurantView"
+                android:id="@+id/txtRestauranteView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="28sp"

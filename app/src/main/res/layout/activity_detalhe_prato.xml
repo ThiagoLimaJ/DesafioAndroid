@@ -13,14 +13,14 @@
 
 
         <ImageView
-            android:id="@+id/imgPratoDetails"
+            android:id="@+id/imgPratoDetalhe"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:contentDescription="@string/prato_selecionado" />
 
         <ImageView
-            android:id="@+id/imgBackPratoDetails"
+            android:id="@+id/imgCostaPratoDetalhe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -29,7 +29,7 @@
             android:contentDescription="@string/voltar" />
 
         <TextView
-            android:id="@+id/txtNomePratoDetails"
+            android:id="@+id/txtNomePratoDetalhe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="28sp"
@@ -43,7 +43,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/txtDescricaoPratoDetails"
+        android:id="@+id/txtDescricaoPratoDetalhe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_bold"

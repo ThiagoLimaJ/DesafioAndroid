@@ -24,12 +24,12 @@ class DetalheRestaurante : AppCompatActivity() {
 
         encontrarRestaurante(nome)
 
-        val imagemRestaurante = findViewById<ImageView>(R.id.imgRestaurantView)
+        val imagemRestaurante = findViewById<ImageView>(R.id.imgRestauranteView)
         imagemRestaurante.setImageResource(restaurante.imagem)
-        val nomeRestaurante = findViewById<TextView>(R.id.txtRestaurantView)
+        val nomeRestaurante = findViewById<TextView>(R.id.txtRestauranteView)
         nomeRestaurante.text = restaurante.nome
 
-        val back = findViewById<ImageView>(R.id.imgBackRestaurantDetails)
+        val back = findViewById<ImageView>(R.id.imgCostaRestauranteDetalhe)
 
         back.setOnClickListener() {
             onBackPressed()

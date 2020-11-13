@@ -13,17 +13,17 @@ class DetalhePrato : AppCompatActivity() {
         val nome = intent.getStringExtra("NomePrato")
         val descricao = intent.getStringExtra("DescricaoPrato")
         val imagem = intent.getStringExtra("ImagemPrato")!!.toInt()
-        val voltar = findViewById<ImageView>(R.id.imgBackPratoDetails)
+        val voltar = findViewById<ImageView>(R.id.imgCostaPratoDetalhe)
 
         voltar.setOnClickListener() {
             onBackPressed()
         }
 
-        val nomePrato = findViewById<TextView>(R.id.txtNomePratoDetails)
+        val nomePrato = findViewById<TextView>(R.id.txtNomePratoDetalhe)
         nomePrato.text = nome
-        val descricaoPrato = findViewById<TextView>(R.id.txtDescricaoPratoDetails)
+        val descricaoPrato = findViewById<TextView>(R.id.txtDescricaoPratoDetalhe)
         descricaoPrato.text = descricao
-        val imagemPrato = findViewById<ImageView>(R.id.imgPratoDetails)
+        val imagemPrato = findViewById<ImageView>(R.id.imgPratoDetalhe)
         imagemPrato.setImageResource(imagem)
 
     }
