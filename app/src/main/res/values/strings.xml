@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DesafioAndroid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="digital_house_foods">Digital House Foods</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="or">OR</string>
+    <string name="register">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="prato_selecionado">Prato selecionado</string>
+    <string name="voltar">Voltar</string>
+    <string name="imagem_do_restaurante">Imagem do restaurante</string>
+    <string name="imagem_inicial">Imagem Inicial</string>
+    <string name="foto_principal_do_restaurante">Foto Principal do Restaurante</string>
+    <string name="pratos_principais">Pratos Principais</string>
+</resources>
